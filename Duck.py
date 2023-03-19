@@ -61,14 +61,5 @@ pixel(40,180,"#202020")
 pixel(20,180,"#f7921d")
 pixel(60,140,"#202020")
 pixel(80,180,"#202020")
-show(0,-20)
-cursor.fd(300)
-for i in range(14):
-	cursor.fd(300)
-	show(0,20*i)
-show(0,0)
-cursor.lt(90)
-for i in range(16):
-	cursor.fd(300)
-	show(20*i,-20)
+
 input()
